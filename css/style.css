@@ -30,4 +30,16 @@ li {
 #about-button {
   display: block;
   margin: 20px auto;
+    padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 12px;
+    background-color: steelblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#about-button:hover {
+  background-color: royalblue;
 }
